@@ -1,0 +1,11 @@
+diff --git a/node_modules/@modelcontextprotocol/sdk/dist/cjs/client/index.js b/node_modules/@modelcontextprotocol/sdk/dist/cjs/client/index.js
+index 1c7b7e9..a3ed82a 100644
+--- a/node_modules/@modelcontextprotocol/sdk/dist/cjs/client/index.js
++++ b/node_modules/@modelcontextprotocol/sdk/dist/cjs/client/index.js
+@@ -231,4 +231,5 @@ class Client extends protocol_js_1.Protocol {
+     }
+ }
+ exports.Client = Client;
++exports.index = exports.Client;
+ //# sourceMappingURL=index.js.map
+\ No newline at end of file
